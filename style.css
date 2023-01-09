@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+.container {
+    margin:5px 100px ;
+   
+   
+}
+
+.main-header >h1 {
+    font-size: 70px;
+    color: blue;
+    padding-left: 100px;
+    font-style: oblique;
+    margin:5px 100px;
+    
+    
+}
+
+.main-nav > ul {
+    list-style:none;
+    background-color: black;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 5px;
+}
+
+.main-nav > ul > li {
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 25px;
+    
+}
+
+.main-nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav > ul > li:hover{
+    background-color: grey;
+    
+}
+
+.main-nav > ul > li > a:hover{
+    color: brown;
+    
+    
+}
+.content > img {
+    width: 650px;
+    margin-left: 120px;
+    padding-bottom: 10px;
+}
+
+
+.content {
+    font-size: 25px;
+    min-height: 400px;
+    width: 80%;
+    padding: 15px;
+    float: left;
+   
+    
+}
+
+.rightside-bar {
+   
+    width: 20%;
+    min-height: 500px;
+    float: right;
+    
+
+}
+
+.main-content::after{
+    content: " ";
+    display: block;
+    clear: both;
+    *zoom:1;
+}
+
+.rightside-bar > h1 {
+    background-color: blue;
+    height: 40px;
+    color: white;
+    text-align : center;
+    line-height: 30px;
+}
+
+.rightside-bar > p {
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.footer {
+    background-color: black;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
